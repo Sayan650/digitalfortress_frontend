@@ -54,7 +54,7 @@ class IndexPage extends React.Component {
     const { classes } = this.props
     return (
       <div>
-        <GoogleOAuthProvider clientId="333847569813-psvc7or5g1cjj69p42sm16r2i4e0t54m.apps.googleusercontent.com">
+        <GoogleOAuthProvider clientId={process.env.GATSBY_GOOGLE_LOGIN_CLIENT_ID}>
           <SEO title="Home" />
           <DashboardLayout>
             <div className={classes.container}>
