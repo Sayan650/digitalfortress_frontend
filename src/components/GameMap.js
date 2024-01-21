@@ -75,7 +75,7 @@ import React from "react"
 import ReactMapboxGl, { Marker } from 'react-mapbox-gl';
 
 const Map = ReactMapboxGl({
-  accessToken: 'pk.eyJ1Ijoic3VtYW4wMDA5IiwiYSI6ImNsMzY5YjB2bjFsdHozYnA5dHN3b3FrdjEifQ.rfW8EEKX9_adNETGuzkgrg'
+  accessToken: process.env.GATSBY_GOOGLE_MAP_API_KEY,
 });
 
 const GameMap = ({ latitude, longitude, zoom }) => {
