@@ -28,7 +28,7 @@
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: rgb(104, 212, 255);
+  background: #68d4ff;
   opacity: 0;
   box-shadow: 0 0 0vw 0vw rgb(0, 225, 255);
   animation: drift ease alternate infinite, flash ease infinite;
