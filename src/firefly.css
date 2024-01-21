@@ -23,14 +23,14 @@
   transform-origin: -10vw;
 }
 .firefly::before {
-  background: #fe8484 ;
+  background: #64c5fd ;
   opacity: 0.5;
   animation: drift ease alternate infinite;
 }
 .firefly::after {
-  background: rgb(255, 104, 104);
+  background: rgb(104, 212, 255);
   opacity: 0;
-  box-shadow: 0 0 0vw 0vw rgb(255, 0, 0);
+  box-shadow: 0 0 0vw 0vw rgb(0, 225, 255);
   animation: drift ease alternate infinite, flash ease infinite;
 }
 .firefly:nth-child(1) {
