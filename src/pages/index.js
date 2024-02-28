@@ -59,7 +59,10 @@ class IndexPage extends React.Component {
           <DashboardLayout>
             <div className={classes.container}>
               <div>
-                <img src={logo} className="dfimg" />
+                {/* <img src={logo} className="dfimg" /> */}
+                <h1 className="headertxt"
+                style={{ color: "#ffffff", fontSize: "xxx-large", fontWeight: "Bold",}}
+                >ScreenCast</h1>
               </div>
 
               <h3
