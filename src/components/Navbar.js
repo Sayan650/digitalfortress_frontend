@@ -69,7 +69,7 @@ const styles = theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    backgroundColor: "rgba(7,7,125, 0.2)",
+    backgroundColor: "#3e254c",
     backdropFilter: "blur(3px)",
   },
   appBarShift: {
