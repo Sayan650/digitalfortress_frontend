@@ -1,6 +1,6 @@
 /* Header */
 body {
-  background: rgba(70,70,255,0.3) url("../images/background.jpeg") !important;
+  background: rgba(70,70,255,0.3) url("../images/ScreenCast.png") !important;
   background-size: cover !important;
   background-position: center center !important;
   background-attachment: fixed !important;
@@ -8,7 +8,7 @@ body {
   /* background-color: rgba(48,4,60,255)  ; */
 }
 .overlay{
-  background-color: rgba(0, 0, 0, 0.164);
+  background-color: rgba(46, 36, 18, 0.5);
   position: absolute;
   z-index: -1;
   width: 100vw;
