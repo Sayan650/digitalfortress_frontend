@@ -16,7 +16,8 @@ const useStyles = makeStyles(theme => ({
     margin: theme.spacing(1),
   },
   gfont:{
-    fontFamily: "'Audiowide', cursive",
+    fontFamily: "monospace",
+    fontSize: "x-large"
   },
 }))
 export default props => {
@@ -70,7 +71,7 @@ export default props => {
       <Button color="primary" onClick={e => logOut()}>
         <Avatar src={image} className={classes.spacing} />
         <Hidden smDown>
-          <div style={{ color: "white" }} className={classes.gfont}>{name}</div>
+          <div style={{ color: "#6e333d" }} className={classes.gfont}>{name}</div>
         </Hidden>
       </Button>
     )

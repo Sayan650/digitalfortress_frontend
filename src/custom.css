@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Kode+Mono:wght@700&display=swap');
 
 html, body{
-  font-family: 'Audiowide', cursive !important;
+  font-family: 'monospace' !important;
 }
 
 .loginBtn {

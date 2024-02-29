@@ -118,4 +118,4 @@ const GameMap = ({ latitude, longitude, zoom }) => {
   )
 }
 
-export default GameMap
+// export default GameMap

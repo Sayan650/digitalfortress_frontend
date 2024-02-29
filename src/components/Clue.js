@@ -40,7 +40,7 @@ const useStyles = makeStyles(theme => ({
     maxWidth: 345,
   },
   gfont:{
-    fontFamily: "'Audiowide', cursive",
+    fontFamily: "monospace",
     color:"#bb79da",
     outline:"none"
   },
@@ -74,7 +74,7 @@ const useStyles = makeStyles(theme => ({
     padding: theme.spacing(1),
     fontSize:"18px",
     fontWeight:"500",
-    textTransform:"uppercase"
+    // textTransform:"uppercase"
   },
   pad2: {
     padding: theme.spacing(1),
@@ -115,7 +115,7 @@ const useStyles = makeStyles(theme => ({
     color:"rgb(212,158,135)",
     outline:"none",
     border:"2px solid rgb(212,158,135)",
-    fontFamily: "'Audiowide', cursive",
+    fontFamily: "monospace",
   },
   dialog:{
     backgroundColor: "rgba(7,7,125, 0.4)",

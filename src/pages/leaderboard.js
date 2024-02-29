@@ -172,7 +172,7 @@ class LeaderBoard extends React.Component {
       return (
         <DashboardLayout>
           <div className={classes.main}>
-          <div className="center" style={{fontFamily: "'Audiowide', cursive",}}>
+          <div className="center" style={{fontFamily: "monospace",}}>
             <div style={{fontSize:"28px", textAlign:"center", margin:"30px auto"}} className="glitch" data-text="LEADERBOARD">LEADERBOARD</div>
             {/* <div style={{fontSize:"18px", textAlign:"center", margin:"30px auto", marginBottom:"0px"}} className="glitch" data-text="TUNE IN TO THE FRESHER'S ORIENTATION ON 24TH AT 4PM TO KNOW WHO BREACHED THE FORT">TUNE IN TO THE FRESHER'S ORIENTATION ON 24TH AT 4PM TO KNOW WHO BREACHED THE FORT</div> */}
             

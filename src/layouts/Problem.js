@@ -3,8 +3,8 @@ import Question from "../components/Question"
 import axios from "axios"
 import AnswerAlert from "../components/AnswerAlert"
 import { navigate } from "gatsby"
-import GameMap from "../components/GameMap"
-import Clue from "../components/Clue"
+// import GameMap from "../components/GameMap"
+// import Clue from "../components/Clue"
 import { div, withStyles, Container, Grid } from "@material-ui/core"
 import Loader from "../styles/loader"
 import "../glitch.css"
@@ -181,7 +181,7 @@ class Problem extends React.Component {
         return (
           <Grid item xs={12} sm={3} lg={3} style={{margin: "5px"}}>
       
-            <Clue
+            {/* <Clue
               question={v.question}
               id={v.id}
               index = {index+1}
@@ -190,7 +190,7 @@ class Problem extends React.Component {
               isSolved={v.isSolved}
               position={v.position}
               style={{margin: "5px"}}
-            ></Clue>
+            ></Clue> */}
      
           </Grid>
           
@@ -201,7 +201,7 @@ class Problem extends React.Component {
           <Container className={classes.root}>
             <Grid container justify="center">
               <div
-                style={{fontSize:"30px",
+                style={{fontSize:"42px",
                 color:"#fff",
                 textTransform:"uppercase", textAlign:"center"}}
                 className="glitch" data-text={`Round ${this.state.round.round_number}`}
@@ -231,10 +231,10 @@ class Problem extends React.Component {
           </div>
           
               <div className={classes.map}>
-                <GameMap
+                {/* <GameMap
                   positions={this.state.positions}
                   centerLoc={this.state.center}
-                />
+                /> */}
               </div>
 
         </Container>

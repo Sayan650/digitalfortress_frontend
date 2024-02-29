@@ -49,8 +49,10 @@ const styles = theme => ({
     flexGrow: 1,
   },
   gfont:{
-    fontFamily: "'Iceland', sans-serif",
-    fontSize: "x-large"
+    fontFamily: "monospace",
+    fontSize: "x-large",
+    color: "#6e333d",
+    fontWeight: "bold"
   },
   BackdropProps: {
     background: "transparent",
@@ -70,7 +72,7 @@ const styles = theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    backgroundColor: "#fff",
+    backgroundColor: "#ed9c61",
     backdropFilter: "blur(3px)",
   },
   appBarShift: {
@@ -203,7 +205,7 @@ class NavBar extends React.Component {
               aria-label="menu"
               onClick={e => this.toggleNavbar()}
             >
-              <Menu />
+              <Menu color="#6e333d" />
             </IconButton>
 
             {/* <img
@@ -212,20 +214,20 @@ class NavBar extends React.Component {
               className="d-inline-block align-top"
               alt="Logo"
             /> */}
-            <div className={`d-inline-block align-top text-4xl ${classes.gfont}`}>ScreenCast</div>
+            <div className={`d-inline-block align-top text-4xl !text-[#6e333d] ${classes.gfont}`}>ScreenCast</div>
             <div className={classes.grow} />
             <Hidden smDown >
-              <Link to="/" style={{ color: "white" }}>
+              <Link to="/" style={{ color: "#6e333d" }}>
                 <Button className={classes.gfont} color="inherit">Home</Button>
               </Link>
               <Button
-                color="inherit"
+                color="#6e333d"
                 className={classes.gfont}
                 onClick={e => store.dispatch({ type: "OPEN" })}
               >
                 Rules
               </Button>
-              <Link to="/leaderboard/" style={{ color: "white" }}>
+              <Link to="/leaderboard/" style={{ color: "#6e333d" }}>
                 <Button className={classes.gfont} color="inherit">LeaderBoard</Button>
               </Link>
             </Hidden>
@@ -257,7 +259,7 @@ class NavBar extends React.Component {
                   <Home style={{ color: "white" }} />
                 </ListItemIcon>
 
-                <div className={classes.gfont} style={{color:"#fff"}}>HOME</div>
+                <div className={classes.gfont} style={{color:"#fff"}}>Home</div>
               </ListItem>
             </Link>
             <ListItem button key="Rules">
@@ -265,7 +267,7 @@ class NavBar extends React.Component {
                 <FormatAlignJustifyIcon style={{ color: "white" }} />
               </ListItemIcon>
 
-              <div className={classes.gfont} onClick={e => store.dispatch({ type: "OPEN" })} style={{color:"#fff"}}>RULES</div>
+              <div className={classes.gfont} onClick={e => store.dispatch({ type: "OPEN" })} style={{color:"#fff"}}>Rules</div>
                 
               
             </ListItem>
@@ -275,7 +277,7 @@ class NavBar extends React.Component {
                 <ListItemIcon>
                   <DashboardIcon style={{ color: "white" }} />
                 </ListItemIcon>
-                <div className={classes.gfont} style={{color:"#fff"}}>LEADERBOARD</div>
+                <div className={classes.gfont} style={{color:"#fff"}}>Leaderboard</div>
               </ListItem>
             </Link>
             <ListItem>
