@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Mansalva&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Kode+Mono:wght@700&display=swap');
 
 html, body{
   font-family: 'Audiowide', cursive !important;
@@ -217,11 +218,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
   height: 60px;
 }
 .dftxt{
-  font-size: 24px;
+  font-size: 32px;
   margin:20px auto;
 }
 .foottxt{
-  font-size: 21px;
+  font-size: 30px;
 }
 @media screen and (max-width: 521px) {
   .dfimg{
@@ -232,6 +233,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4e4ef', end
     max-width: 75%;
   }
   .foottxt{
-    font-size: 16px;
+    font-size: 24px;
   }
 }

@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import DashboardLayout from "../layouts/DashboardLayout"
 import Typed from "typed.js"
 import GoogleSignIn from "../components/GoogleSignIn"
+import '../glitch.css'
 // import FacebookSignIn from "../components/FacebookSignIn"
 import GithubSignin from "../components/GithubLogin"
 import logo from "../images/b.png"
@@ -60,7 +61,7 @@ class IndexPage extends React.Component {
             <div className={classes.container}>
               <div>
                 {/* <img src={logo} className="dfimg" /> */}
-                <h1 className="headertxt"
+                <h1 className="headertxt glitch"
                 style={{ color: "#ffffff", fontSize: "xxx-large", fontWeight: "Bold",}}
                 >ScreenCast</h1>
               </div>

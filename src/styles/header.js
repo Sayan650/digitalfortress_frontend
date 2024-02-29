@@ -31,7 +31,7 @@ export default function HeaderScreen() {
         <div className="shape shape-3" />
       </div>
       <div className="content">
-        <h1>Digital Fortress</h1>
+        <h1>ScreenCast</h1>
       </div>
     </div>
   )

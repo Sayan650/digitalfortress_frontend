@@ -6,7 +6,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Digital Fortress`,
+    title: `ScreenCast`,
     description: `Now test your investigation skills and compete with your friends.`,
     author: `@romitkarmakar`
   },

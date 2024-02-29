@@ -49,7 +49,8 @@ const styles = theme => ({
     flexGrow: 1,
   },
   gfont:{
-    fontFamily: "'Audiowide', cursive",
+    fontFamily: "'Iceland', sans-serif",
+    fontSize: "x-large"
   },
   BackdropProps: {
     background: "transparent",
@@ -69,7 +70,7 @@ const styles = theme => ({
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    backgroundColor: "#3e254c",
+    backgroundColor: "#fff",
     backdropFilter: "blur(3px)",
   },
   appBarShift: {
@@ -94,7 +95,7 @@ const styles = theme => ({
   drawerPaper: {
     zIndex:9999,
     width: drawerWidth,
-    background: "rgba(7,7,125, 0.2)",
+    background: "rgba(0,0,0, 0.2)",
     backdropFilter: "blur(3px)",
     color: "white",
     opacity: 0.75,
@@ -205,12 +206,13 @@ class NavBar extends React.Component {
               <Menu />
             </IconButton>
 
-            <img
+            {/* <img
               src={logo}
               height={35}
               className="d-inline-block align-top"
               alt="Logo"
-            />
+            /> */}
+            <div className={`d-inline-block align-top text-4xl ${classes.gfont}`}>ScreenCast</div>
             <div className={classes.grow} />
             <Hidden smDown >
               <Link to="/" style={{ color: "white" }}>
