@@ -102,7 +102,7 @@ const GameMap = ({ latitude, longitude, zoom }) => {
         />
       ))} */}
 
-      <div
+      {/* <div
         style={{
           position: "absolute",
           top: 0,
@@ -113,7 +113,7 @@ const GameMap = ({ latitude, longitude, zoom }) => {
         <svg height="30" width="30" viewBox="0 0 24 24">
           <circle cx="12" cy="12" r="8" fill="blue" />
         </svg>
-      </div>
+      </div> */}
     </Map>
   )
 }

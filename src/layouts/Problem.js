@@ -31,7 +31,7 @@ const styles = theme => ({
     maxWidth:"900px",
     width:"95%",
     position:"relative",
-    height:"65vh"
+    height:"35vh"
   }
 })
 
