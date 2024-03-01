@@ -73,17 +73,17 @@ class Rules extends React.Component {
         className={this.props.classes.dialog}
       >
         <div className={this.props.classes.diaIn}>
-          <div style={{ fontSize: "18px" }} className={this.props.classes.gfont}>RULES OF THE QUIZ</div>
-
-          <ol style={{ margin: "10px auto", textAlign: "left" }}>
-            <li>Solving each round rewards you 10 points.</li>
-            <li>Each Round is based on a theme which you need to figure out.</li>
-            <li>Each Round consists of a main question and a few clue questions.</li>
-            <li>Answering each clue question unlocks a position on the map.</li>
-            <li>These locations/shapes/street-views are hints to the main question.</li>
-            <li>The leaderboard will be inactive during sample rounds.</li>
-          </ol>
-
+        <div style={{fontSize:"18px"}} className={this.props.classes.gfont}>RULES OF THE QUIZ</div>
+        
+          
+          <ol style={{margin:"10px auto", textAlign:"left"}}>
+              <li>Solving each round rewards you 10 points.</li>
+              <li>Each Round is based on a technical theme which you need to figure out.</li>
+              <li>The leaderboard will be inactive during sample rounds.</li>
+            </ol>
+          
+        
+        
           <Button onClick={e => this.toggle()} className={this.props.classes.btn2} >
             Close
           </Button>
